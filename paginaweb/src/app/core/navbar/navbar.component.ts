@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  constructor() { }
+  constructor(private viewportScroller: ViewportScroller) {
+    
+   }
 
   ngOnInit(): void {
+  }
+
+  onClickScroll(elementId: string):void{
+    this.viewportScroller.scrollToAnchor(elementId);
   }
 
 }

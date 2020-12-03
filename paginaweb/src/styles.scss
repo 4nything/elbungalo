@@ -1,0 +1,174 @@
+/*
+    Paleta de Colores
+    Hoja de estilos de todo el proyecto
+*/
+
+$navyBlue: #03045E;
+$cornFlowerBlue: #023E8A;
+$starCommandBlue: #0077B6;
+$blueGreen: #0096C7;
+$cerulean: #00B4D8;
+$skyBlue: #48CAE4;
+$skyCrayola: #90E0EF;
+$blizzardBlue: #ADE8F4;
+$powderBlue: #CAF0F8;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*
+    Comienzo de estilos
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    max-width: 100vw;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $starCommandBlue;
+    border: none;
+}
+
+
+/* Decoracion navbar */
+
+nav {
+    background-color: $cornFlowerBlue;
+}
+
+.item-box {
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.item-box:hover {
+    background-color: $navyBlue;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+/* Decoracion Header */
+
+#header-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-main h3,
+#header-main h4 {
+    text-align: center;
+}
+
+#nosotros-main {
+    width: 100%;
+    height: auto;
+    background-color: $cerulean;
+}
+
+.nos-head {
+    margin-top: 60px;
+    width: 100%;
+    padding: 60px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parrafo-box {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: $powderBlue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 25px 30px 25px 30px;
+}
+
+.linea-tiempo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 50px auto auto auto;
+    padding: 20px;
+}
+
+.linea-tiempo h1 {
+    display: inline-block;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 10px 0px 10px;
+}
+
+.line {
+    width: 350px;
+    height: 2px;
+    background-color: black;
+    margin: 24px -10px 0px -10px;
+}
+
+.contacto-main {
+    width: 100%;
+    height: auto;
+}
+
+.con-head {
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+}
+
+.con-info {
+    float: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.con-info p {
+    padding: 7px 12px 7px 12px;
+    text-align: justify;
+}
+
+.prod-main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.prod-head {
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+}

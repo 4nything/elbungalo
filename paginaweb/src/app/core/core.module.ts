@@ -6,6 +6,8 @@ import { MainComponent } from './main/main.component';
 import { RouterModule } from '@angular/router';
 import { ListaPreciosComponent } from './lista-precios/lista-precios.component';
 import { ProductosComponent } from './productos/productos.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
 
 @NgModule({
     declarations: [
@@ -14,7 +16,9 @@ import { ProductosComponent } from './productos/productos.component';
         NavbarComponent, 
         MainComponent,
         ListaPreciosComponent,
-        ProductosComponent
+        ProductosComponent,
+        ContactoComponent,
+        NosotrosComponent
     ],
     exports: [
         FooterComponent, 
@@ -22,7 +26,9 @@ import { ProductosComponent } from './productos/productos.component';
         NavbarComponent, 
         MainComponent,
         ListaPreciosComponent,
-        ProductosComponent
+        ProductosComponent,
+        ContactoComponent,
+        NosotrosComponent
     ],
     imports: [RouterModule]
 })

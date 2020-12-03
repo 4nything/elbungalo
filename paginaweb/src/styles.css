@@ -1,1 +1,182 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+    Paleta de Colores
+    Hoja de estilos de todo el proyecto
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/*
+    Comienzo de estilos
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0077B6;
+  border: none;
+}
+
+/* Decoracion navbar */
+nav {
+  background-color: #023E8A;
+}
+
+.item-box {
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.item-box:hover {
+  background-color: #03045E;
+  -webkit-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* Decoracion Header */
+#header-main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header-main h3,
+#header-main h4 {
+  text-align: center;
+}
+
+#nosotros-main {
+  width: 100%;
+  height: auto;
+  background-color: #00B4D8;
+}
+
+.nos-head {
+  margin-top: 60px;
+  width: 100%;
+  padding: 60px;
+  display: block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.parrafo-box {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: #CAF0F8;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.parrafo {
+  text-align: justify;
+  padding: 25px 30px 25px 30px;
+}
+
+.linea-tiempo {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto auto auto;
+  padding: 20px;
+}
+
+.linea-tiempo h1 {
+  display: inline-block;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 10px 0px 10px;
+}
+
+.line {
+  width: 350px;
+  height: 2px;
+  background-color: black;
+  margin: 24px -10px 0px -10px;
+}
+
+.contacto-main {
+  width: 100%;
+  height: auto;
+}
+
+.con-head {
+  text-align: center;
+  padding: 60px;
+  margin-top: 20px;
+}
+
+.con-info {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.con-info p {
+  padding: 7px 12px 7px 12px;
+  text-align: justify;
+}
+
+.prod-main {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.prod-head {
+  text-align: center;
+  padding: 60px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
